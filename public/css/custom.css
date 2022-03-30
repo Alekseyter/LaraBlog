@@ -1,0 +1,102 @@
+.custom-file-label::after {
+    content: '...';
+}
+
+.btn-secondary {
+    color: #FFFFFF !important;
+}
+
+.card-view td {
+    font-size: 14px;
+}
+
+.navbar:before,
+.navbar:after {
+    display: none;
+}
+
+.navbar {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.admin-dashboard p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.dashboard-card .small-box .icon>i.nav-icon {
+    top: 15px;
+}
+
+.pagination .page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #2e937a;
+    border-color: #2e937a;
+}
+
+.pagination .page-link {
+    color: #2e937a;
+}
+
+.blog-post .comment-section .btn {
+    font-size: 16px;
+}
+
+.comment-list {
+    margin-top: 80px;
+}
+
+.comment-list h3 {
+    font-size: 18px;
+}
+
+.comment-list h5 {
+    font-size: 14px;
+    color: #999;
+}
+
+.comment-list p {
+    font-size: 16px;
+    color: #333;
+}
+
+.fa__custom:before {
+    font-size: 25px;
+    color: #2e937a;
+}
+
+.fa__custom_setting:before {
+    font-size: 22px;
+}
+
+button:focus {
+    outline: unset;
+}
+
+main.blog-post .fa-heart:before {
+    font-size: 24px;
+}
+
+.navbar-nav {
+    flex-direction: unset;
+}
+
+.category-title-custom:hover {
+    text-decoration: none;
+}
+
+.category-title-custom p {
+    color: #7d848b !important;
+    transition: all .3s ease-out !important;
+}
+
+.category-title-custom p:hover {
+    color: #dc3545 !important;
+}
